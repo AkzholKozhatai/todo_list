@@ -12,6 +12,7 @@ public class ProjectConfig {
         return user;
     }
 
+
     @Bean
     public Task task() {
         Task task = new Task();
